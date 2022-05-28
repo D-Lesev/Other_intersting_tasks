@@ -11,7 +11,7 @@ button_ef_options = ['KLR LOCK + Heated seat', 'Favourites + R', 'DTC', 'Automat
                      'A/M Transmission', 'Wipers + Tire Pressure']
 range_motor_var = '8G6260'
 
-# If client wants illum. we continue here, otherwise we go to "no" condition
+# If client wants illumination we continue here, otherwise we go to "no" condition
 if illum.lower() == 'yes':
 
     # Creating empty vars for attaching the client's choice
