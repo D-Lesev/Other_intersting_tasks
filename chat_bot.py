@@ -14,6 +14,12 @@ pairs = [
                     "For more information about courses you can always call us!"]
     ],
     [
+        r"(.*)\sphone", ["If you need our phone, you can find on our website"]
+    ],
+    [
+        r"(.*)(certificate)", ["After completing our courses you always receive %2"]
+    ],
+    [
         r"quit", ["Have a nice day!"]
     ],
     [
@@ -24,7 +30,8 @@ pairs = [
                             "I am glad that I helped you! Something more I can assist you with?"]
     ],
     [
-        r"(\w+)", ["Sorry, but I am not so smart yet! Please make yourself more clear or call us!", "Can you please ask something else?"
+        r"(\w+)", ["Sorry, but I am not so smart yet! Please make yourself more clear or call us!",
+                   "Can you please ask something else?"
                    , "I need more information", "Sorry I can not answer this question!"]
     ]
 ]
